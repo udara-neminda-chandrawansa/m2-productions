@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import MarketingServices from "../components/ExpertiseGrid";
 import CommentForm from "../components/CommentsForm";
 
+import hero from "../assets/images/landing/hero.jpg";
+
 import s1 from "../assets/images/services/1.png";
 import s2 from "../assets/images/services/2.png";
 import s3 from "../assets/images/services/3.png";
@@ -139,7 +141,7 @@ function Landing() {
       <div
         className="relative min-h-[85dvh] bg-cover bg-center bg-fixed"
         style={{
-          backgroundImage: `url("https://images.unsplash.com/photo-1611329532992-0f91ca8e3d52?w=1920")`,
+          backgroundImage: `url("${hero}")`,
         }}
       >
         {/* Backdrop */}
@@ -274,7 +276,7 @@ function Landing() {
           <p className="text-2xl text-justify max-md:text-xl max-sm:text-lg">
             We deliver more than just prints - we deliver trust, speed, and unmatched quality. Our printing partner never lets you down. Whether it's promotional banners, corporate flags, exhibition displays, or custom merchandise, we provide fast, flawless, and reliable service. With premium prints, perfect finish, and fast delivery, we ensure your brand gets noticed.
           </p>
-          <span className="text-lg text-[#d70e1d] flex gap-3 items-center">
+          {/* <span className="text-lg text-[#d70e1d] flex gap-3 items-center">
             <span className="flex">
               <span className="w-2 h-2 bg-[#d70e1d] rounded-full z-10"></span>
               <span className="w-2 h-2 -ml-1 bg-black rounded-full"></span>
@@ -324,7 +326,7 @@ function Landing() {
                 <p className="font-semibold">GWM</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

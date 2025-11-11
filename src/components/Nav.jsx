@@ -31,7 +31,7 @@ function Nav() {
               <div className="flex items-center space-x-1">
                 <span className="flex items-center gap-3">
                   <MapPin className="text-[#d70e1d]" />
-                  63, Level, 3 Raja Veediya, Kandy
+                  161/B-1, Old Kottawa Road, Nawinna, Maharagama
                 </span>
               </div>
             </div>
@@ -78,7 +78,7 @@ function Nav() {
             <Phone className="w-6 h-6" />
             <div className="flex flex-col items-start">
               <span className="">Call Now</span>
-              <a href="tel:94777574766">+94 70 155 1777</a>
+              <a href="tel:94777574766">+94 77 757 4766</a>
             </div>
           </div>
         </div>
