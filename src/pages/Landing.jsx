@@ -160,7 +160,7 @@ function Landing() {
                 Your Brand, Printed to Perfection
               </p>
 
-              <div className="grid grid-cols-3 max-sm:grid-cols-2 gap-4 max-[425px]:gap-2">
+              <div className="grid grid-cols-3 max-sm:grid-cols-2 gap-4 max-[425px]:gap-2 max-sm:hidden">
                 {services.map((service) => (
                   <div key={service.id} className="flex items-center w-fit">
                     <div className="text-[#d70e1d] mr-3">
