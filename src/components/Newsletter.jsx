@@ -18,7 +18,7 @@ function Newsletter() {
                 className="text-black rounded-lg"
               />
               <a
-                href="mailto:talk@mediaasia.lk"
+                href="mailto:mm2produ@gmail.com"
                 className="bg-white text-[#d70e1d] px-6 rounded-lg flex justify-center items-center gap-6 py-2 sm:py-3"
               >
                 <Mail /> Subscribe

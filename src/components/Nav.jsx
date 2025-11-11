@@ -25,7 +25,7 @@ function Nav() {
               <div className="flex items-center space-x-1">
                 <span className="flex items-center gap-3">
                   <Mail className="text-[#d70e1d]" />
-                  <a href="mailto:talk@mediaasia.lk">talk@mediaasia.lk</a>
+                  <a href="mailto:mm2produ@gmail.com">mm2produ@gmail.com</a>
                 </span>
               </div>
               <div className="flex items-center space-x-1">
@@ -78,7 +78,7 @@ function Nav() {
             <Phone className="w-6 h-6" />
             <div className="flex flex-col items-start">
               <span className="">Call Now</span>
-              <a href="tel:94701551777">+94 70 155 1777</a>
+              <a href="tel:94777574766">+94 70 155 1777</a>
             </div>
           </div>
         </div>

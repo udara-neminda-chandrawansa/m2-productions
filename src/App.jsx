@@ -7,7 +7,7 @@ import Culture from "./pages/Culture";
 import ContactForm from "./pages/Contact";
 import ObserverProvider from "./components/ObserverProvieder";
 import Products from "./pages/Products";
-import logo from "/logo-media-asia.png";
+import logo from "/logo.png";
 
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
@@ -17,13 +17,13 @@ export default function App() {
       <Nav />
       <Switch>
         <Route path="/" component={Landing} />
-        <Route path="/culture" component={Culture} />
+        {/* <Route path="/culture" component={Culture} />
         <Route path="/contact" component={ContactForm} />
         <Route path="/products" component={Products} />
 
         <Route path="/users/:name">
           {(params) => <>Hello, {params.name}!</>}
-        </Route>
+        </Route> */}
 
         {/* Default route in a switch */}
         <Route>
@@ -34,12 +34,12 @@ export default function App() {
       </Switch>
       <Footer />
       <FloatingWhatsApp
-        phoneNumber="94701551777"
+        phoneNumber="94777574766"
         avatar={logo}
-        accountName="Media Asia Agent"
+        accountName="M2 Products"
         statusMessage="Online"
-        buttonClassName="left-5"
-        chatboxClassName="left-5"
+        buttonClassName="right-5"
+        chatboxClassName="right-5"
         chatboxStyle={{transition:"none"}}
       />
     </ObserverProvider>

@@ -102,7 +102,7 @@ const ContactForm = () => {
                   <p className="px-4 py-1 text-sm text-white rounded-full bg-gradient-to-r from-[#d70e1d] to-[#d70e1d]">
                     Call Now
                   </p>
-                  <a href="tel:94701551777" className="text-gray-600">+94 70 155 1777</a>
+                  <a href="tel:94777574766" className="text-gray-600">+94 70 155 1777</a>
                 </div>
               </div>
 
@@ -114,7 +114,7 @@ const ContactForm = () => {
                   <p className="px-4 py-1 text-sm text-white rounded-full bg-gradient-to-r from-[#d70e1d] to-[#d70e1d]">
                     Email Now
                   </p>
-                  <a href="mailto:talk@mediaasia.lk" className="text-gray-600">talk@mediaasia.lk</a>
+                  <a href="mailto:mm2produ@gmail.com" className="text-gray-600">mm2produ@gmail.com</a>
                 </div>
               </div>
             </div>

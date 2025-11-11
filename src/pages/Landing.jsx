@@ -144,7 +144,7 @@ function Landing() {
       >
         {/* Backdrop */}
         <div className="absolute w-full h-full bg-black opacity-70"></div>
-        
+
         {/* Hero Content */}
         <div className="px-12 py-16 max-sm:py-6 max-sm:px-6 h-[65dvh] max-sm:h-[85dvh] flex items-center xl:w-2/3">
           <div className="grid gap-12 max-[425px]:gap-6">
@@ -168,7 +168,7 @@ function Landing() {
                   </div>
                 ))}
               </div>
-              
+
               <div className="flex flex-col items-start justify-between gap-3">
                 <p className="text-justify text-white">
                   Transform your business with our expertise! We harness the power of latest technology for unparalleled service. From digital printing to laser engraving, we create bold impressions that make your brand stand out.
@@ -236,7 +236,7 @@ function Landing() {
             className="flex items-center justify-center w-10 h-10 transition-all delay-75 bg-white rounded-full shadow-lg cursor-pointer hover:text-[#d70e1d]"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+              <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
             </svg>
           </a>
         </div>
@@ -485,6 +485,16 @@ function Landing() {
               <p className="text-gray-600">#161/B-1, Old Kottawa Road</p>
               <p className="text-gray-600">Nawinna, Maharagama</p>
             </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="w-12 h-12 bg-[#d70e1d] rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-telephone-forward-fill h-6 w-6 text-white" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-lg mb-2">Telephone</h3>
+              <p className="text-gray-600">077 757 4766</p>
+            </div>
           </div>
 
           <div className="mt-12 text-center">
@@ -503,7 +513,7 @@ function Landing() {
         </div>
       </div>
 
-      {/*Footer*/}
+      {/*Footer
       <div className="w-full bg-black text-white py-8 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">
@@ -533,7 +543,7 @@ function Landing() {
             © 2024 M2 Productions. All rights reserved. | Nawinna, Maharagama, Sri Lanka
           </p>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }
