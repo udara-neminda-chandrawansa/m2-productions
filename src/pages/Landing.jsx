@@ -4,6 +4,8 @@ import MarketingServices from "../components/ExpertiseGrid";
 import CommentForm from "../components/CommentsForm";
 
 import hero from "../assets/images/landing/hero.jpg";
+import sublimination from "../assets/images/landing/sublimination.webp";
+import laserCutting from "../assets/images/landing/laser-cutting.webp";
 
 import s1 from "../assets/images/services/1.png";
 import s2 from "../assets/images/services/2.png";
@@ -26,7 +28,7 @@ function Landing() {
     {
       id: 1,
       price: "Rs.75/sq.ft.",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+      image: "https://supraprint24.eu/wp-content/uploads/2022/03/beachflag-alu-square.jpg",
       title: "Premium Flags & Banners",
       content:
         "Show your brand's strength with premium flags in Satin, Coated Satin, and Metrital materials. Perfect for corporate events, exhibitions, and outdoor branding. Wave your brand with style - high quality, perfect colors, and quick service guaranteed.",
@@ -34,7 +36,7 @@ function Landing() {
     {
       id: 2,
       price: "Starting Rs.1800/pack",
-      image: "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=800",
+      image: "https://m.media-amazon.com/images/I/81vAxYEpebL._AC_SL1500_.jpg",
       title: "Eyelets - Bulk Orders Available",
       content:
         "Premium quality eyelets perfect for your projects with durability and quality guaranteed. 750 eyelets per pack at Rs.1800 with special discounts available for bulk orders. Available now in both gold and silver finishes.",
@@ -42,7 +44,7 @@ function Landing() {
     {
       id: 3,
       price: "Custom Pricing",
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800",
+      image: "https://img.freepik.com/premium-vector/modern-roll-up-banner-x-stand-pull-up-signage-retractable-banner-design-business_751642-19.jpg",
       title: "X Banners & Pull-Up Banners",
       content:
         "Stand out and stay visible with our portable, durable, and eye-catching X Banners and Pull-Up Banners that carry your brand everywhere. Perfect for events, exhibitions, and promotions with professional finish.",
@@ -50,7 +52,7 @@ function Landing() {
     {
       id: 4,
       price: "Custom Pricing",
-      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800",
+      image: sublimination,
       title: "Sublimation Printing Solutions",
       content:
         "Custom corporate wear, branded t-shirts & uniforms, and event & promotional printing. Perfect for team uniforms, sports jerseys, and promotional merchandise with vibrant, long-lasting prints on various materials.",
@@ -58,7 +60,7 @@ function Landing() {
     {
       id: 5,
       price: "Custom Pricing",
-      image: "https://images.unsplash.com/photo-1563906267088-b029e7101114?w=800",
+      image: laserCutting,
       title: "Laser Cutting & Engraving",
       content:
         "Cut, engrave, and impress - any material, any surface, your idea, our craft. We bring your designs to life with laser precision on acrylic, wood, leather, regiform, and plastic. Ideal for branding, displays, and custom creations.",
