@@ -157,8 +157,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="pt-8 mt-8 text-center text-gray-400 border-t border-gray-800">
             <p>
-              2025 © All Rights Reserved | M2 Productions | Designed & Developed by
-              Silicon Radon Networks (Pvt) Ltd.
+              2025 © All Rights Reserved | M2 Productions | Designed & Developed by <a className="text-red-600" href="https://siliconradonnetworks.com">Silicon Radon Networks (Pvt) Ltd</a>.
             </p>
           </div>
         </div>
